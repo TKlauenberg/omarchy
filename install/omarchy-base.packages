@@ -21,9 +21,6 @@ cups-browsed
 cups-filters
 cups-pdf
 ddcutil
-docker
-docker-buildx
-docker-compose
 dosfstools
 dotnet-runtime
 dua-cli
@@ -65,7 +62,6 @@ networkmanager
 jq
 kdenlive
 kernel-modules-hook
-lazydocker
 lazygit
 less
 libsecret
@@ -90,7 +86,6 @@ noto-fonts-cjk
 noto-fonts-emoji
 nss-mdns
 nvim
-obs-studio
 obsidian
 omacalc
 omacut
@@ -101,6 +96,8 @@ pamixer
 pinta
 plocate
 plymouth
+podman
+podman-compose
 postgresql-libs
 power-profiles-daemon
 python-gobject
@@ -129,7 +126,6 @@ ttf-jetbrains-mono-nerd-basic
 tzupdate
 udiskie
 ufw
-ufw-docker
 unzip
 usage
 uwsm
