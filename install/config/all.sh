@@ -13,7 +13,7 @@ run_logged $OMARCHY_INSTALL/config/detect-keyboard-layout.sh
 run_logged $OMARCHY_INSTALL/config/xcompose.sh
 run_logged $OMARCHY_INSTALL/config/mise-work.sh
 run_logged $OMARCHY_INSTALL/config/fix-powerprofilesctl-shebang.sh
-run_logged $OMARCHY_INSTALL/config/docker.sh
+run_logged $OMARCHY_INSTALL/config/podman.sh
 run_logged $OMARCHY_INSTALL/config/mimetypes.sh
 run_logged $OMARCHY_INSTALL/config/user-dirs.sh
 run_logged $OMARCHY_INSTALL/config/toggles.sh

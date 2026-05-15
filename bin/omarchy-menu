@@ -646,9 +646,9 @@ show_install_font_menu() {
 }
 
 show_install_development_menu() {
-  case $(menu "Install" "󰫏  Ruby on Rails\n  Docker DB\n  JavaScript\n  Go\n  PHP\n  Python\n  Elixir\n  Zig\n  Rust\n  Java\n  .NET\n  OCaml\n  Clojure\n  Scala") in
+  case $(menu "Install" "󰫏  Ruby on Rails\n Podman DB\n  JavaScript\n  Go\n  PHP\n  Python\n  Elixir\n  Zig\n  Rust\n  Java\n  .NET\n  OCaml\n  Clojure\n  Scala") in
   *Rails*) present_terminal "omarchy-install-dev-env ruby" ;;
-  *Docker*) present_terminal omarchy-install-docker-dbs ;;
+  *Podman*) present_terminal omarchy-install-podman-dbs ;;
   *JavaScript*) show_install_javascript_menu ;;
   *Go*) present_terminal "omarchy-install-dev-env go" ;;
   *PHP*) show_install_php_menu ;;
